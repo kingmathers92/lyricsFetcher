@@ -27,6 +27,8 @@ btn.addEventListener('click', () => {
             console.log(data);
             if(data.lyrics !== undefined) {
                 output.textContent = data.lyrics;
+                artistInput.value = "";
+                songInput.value = "";
             } else {
                 output.textContent = `No lyrics found for the requested data`
             }
