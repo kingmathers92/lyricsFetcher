@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch Lyrics</title>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="styles.css">
+      <title>Fetch Lyrics</title>
 </head>
 <body>
+    <div>
+        <img src="logo11.png" alt="logo">
+    </div>
     <div class="lyrics-input">
         <h1>Get Song Lyrics</h1>
         <div class="input-wrap">
@@ -23,14 +27,14 @@
         </div>
         <div class="input-wrap">
             <span class="material-icons">
-                album
+                lyrics
             </span>
             <input type="text"
                    id="songName"
                    placeholder="Song name.."
             />
         </div>
-        <button type="button" class="fetchBtn">
+        <button onclick="animateText" type="button" class="fetchBtn">
             Get Lyrics!
         </button>
     </div>
