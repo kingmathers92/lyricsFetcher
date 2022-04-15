@@ -27,6 +27,7 @@ btn.addEventListener('click', () => {
             console.log(data);
             if(data.lyrics !== undefined) {
                 output.textContent = data.lyrics;
+                //Clear input fields
                 artistInput.value = "";
                 songInput.value = "";
             } else {
