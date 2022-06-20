@@ -16,9 +16,8 @@ body {
     border-radius: 0.8em;
     background: #fff;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
-    font-size: 1.1em;
+    font-size: 16px;
     overflow: auto;
-    width: fit-content;
     padding: 5px;
 }
 
@@ -70,5 +69,6 @@ body {
 }
 
 .lyrics-output pre {
-    font-size: 0.7em;
+    font-size: 10px;
+
 }
